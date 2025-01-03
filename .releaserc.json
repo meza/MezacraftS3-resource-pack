@@ -34,6 +34,9 @@
         "assets": [
           {
             "path": "MezacraftS3.zip"
+          },
+          {
+            "path": "MezacraftS3.zip.sha1"
           }
         ]
       }

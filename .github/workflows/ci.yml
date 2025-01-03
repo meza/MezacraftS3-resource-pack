@@ -2,6 +2,12 @@ name: Build
 
 on: push
 
+permissions:
+  issues: write
+  checks: write
+  contents: write
+  pull-requests: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,6 +16,8 @@ jobs:
         uses: actions/checkout@v3
       - name: "Package and Publish"
         run: cd src && zip -r ../MezacraftS3.zip *
+      - name: "Save SHA1 hash of the file"
+        run: echo "$(sha1sum MezacraftS3.zip | cut -d ' ' -f 1)" > MezacraftS3.zip.sha1
       - name: Semantic Release
         uses: cycjimmy/semantic-release-action@v4
         env:

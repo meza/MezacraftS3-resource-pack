@@ -33,10 +33,10 @@
       {
         "assets": [
           {
-            "path": "MezacraftS3.zip"
+            "path": "MezacraftS3*.zip"
           },
           {
-            "path": "MezacraftS3.zip.sha1"
+            "path": "MezacraftS3*.zip.sha1"
           }
         ]
       }

@@ -29,12 +29,12 @@ jobs:
 
       - name: "Package and Publish"
         if: ${{ steps.get-next-version.outputs.new-release-published == 'true'  }}
-        run: cd src && zip -r ../MezacraftS3-${{ steps.get-next-version.outputs.new-release-version }}.zip *
+        run: cd src && zip -r ../MezacraftS3-${{ steps.get-next-version.outputs.new_release_version }}.zip *
       - name: "Save SHA1 hash of the file"
-        if: ${{ steps.get-next-version.outputs.new-release-published == 'true'  }}
+        if: ${{ steps.get-next-version.outputs.new_release_published == 'true'  }}
         run: |
-          SHA=$(sha1sum "MezacraftS3-${{ steps.get-next-version.outputs.new-release-version }}.zip" | cut -d ' ' -f 1)
-          echo $SHA > MezacraftS3-${{ steps.get-next-version.outputs.new-release-version }}.zip.sha1
+          SHA=$(sha1sum "MezacraftS3-${{ steps.get-next-version.outputs.new_release_version }}.zip" | cut -d ' ' -f 1)
+          echo $SHA > "MezacraftS3-${{ steps.get-next-version.outputs.new_release_version }}.zip.sha1"
           echo $SHA >> $GITHUB_OUTPUT
           echo $SHA >> $GITHUB_STEP_SUMMARY
       - name: Semantic Release

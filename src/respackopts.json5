@@ -1,0 +1,8 @@
+{
+  id: "gg.meza.mezacraft3",
+  version: 9,
+  capabilities: ["FileFilter","DirFilter"],
+  conf: {
+    "gg.meza.mezacraft3.enableCommunityResources": true,
+  }
+}

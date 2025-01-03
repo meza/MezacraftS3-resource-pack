@@ -14,10 +14,27 @@ jobs:
     steps:
       - name: "⬇️ Checkout"
         uses: actions/checkout@v3
+      - name: Semantic Release
+        id: get-next-version
+        uses: cycjimmy/semantic-release-action@v4
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+        with:
+          dry_run: true
+          extra_plugins: |
+            conventional-changelog-conventionalcommits 
+            @semantic-release/github 
+            @semantic-release/changelog 
+            semantic-release-export-data
+
       - name: "Package and Publish"
-        run: cd src && zip -r ../MezacraftS3.zip *
+        run: cd src && zip -r ../MezacraftS3-${{ steps.get-next-version.outputs.new-release-version }}.zip *
       - name: "Save SHA1 hash of the file"
-        run: echo "$(sha1sum MezacraftS3.zip | cut -d ' ' -f 1)" > MezacraftS3.zip.sha1
+        run: |
+          SHA=$(sha1sum MezacraftS3.zip | cut -d ' ' -f 1)"
+          echo $SHA > MezacraftS3-${{ steps.get-next-version.outputs.new-release-version }}.zip.sha1
+          echo $SHA >> $GITHUB_OUTPUT
+          echo $SHA >> $GITHUB_STEP_SUMMARY
       - name: Semantic Release
         uses: cycjimmy/semantic-release-action@v4
         env:

@@ -28,14 +28,17 @@ jobs:
             semantic-release-export-data
 
       - name: "Package and Publish"
+        if: ${{ steps.get-next-version.outputs.new-release-published == 'true'  }}
         run: cd src && zip -r ../MezacraftS3-${{ steps.get-next-version.outputs.new-release-version }}.zip *
       - name: "Save SHA1 hash of the file"
+        if: ${{ steps.get-next-version.outputs.new-release-published == 'true'  }}
         run: |
-          SHA=$(sha1sum MezacraftS3.zip | cut -d ' ' -f 1)"
+          SHA=$(sha1sum MezacraftS3-${{ steps.get-next-version.outputs.new-release-version }}.zip | cut -d ' ' -f 1)"
           echo $SHA > MezacraftS3-${{ steps.get-next-version.outputs.new-release-version }}.zip.sha1
           echo $SHA >> $GITHUB_OUTPUT
           echo $SHA >> $GITHUB_STEP_SUMMARY
       - name: Semantic Release
+        if: ${{ steps.get-next-version.outputs.new-release-published == 'true'  }}
         uses: cycjimmy/semantic-release-action@v4
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}

@@ -3,6 +3,6 @@
   version: 13,
   capabilities: ["FileFilter","DirFilter"],
   conf: {
-    "gg.meza.mezacraft3.enableCommunityResources": true
+    "enableCommunityResources": true
   }
 }

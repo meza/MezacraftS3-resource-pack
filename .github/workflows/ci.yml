@@ -54,4 +54,4 @@ jobs:
           server: 'minecraft.meza.gg'
           port: '25575'
           password: ${{ secrets.RCON_PASSWORD }}
-          commands: '["pack set \"https://github.com/meza/MezacraftS3-resource-pack/releases/download/v${{ steps.get-next-version.outputs.new_release_version }}/MezacraftS3-${{ steps.get-next-version.outputs.new_release_version }}.zip\" push"]'
+          commands: '["pack set \"https://github.com/meza/MezacraftS3-resource-pack/releases/download/v${{ steps.get-next-version.outputs.new_release_version }}/MezacraftS3-${{ steps.get-next-version.outputs.new_release_version }}.zip\""]'

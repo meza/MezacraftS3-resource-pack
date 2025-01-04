@@ -1,0 +1,1384 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "minecraft:item/filled_map"
+        },
+        "entries": [
+            {
+                "threshold": 1,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/effect/bed"
+                }
+            },
+            {
+                "threshold": 2,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/effect/blue_potion"
+                }
+            },
+            {
+                "threshold": 3,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/effect/bow"
+                }
+            },
+            {
+                "threshold": 4,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/effect/chest"
+                }
+            },
+            {
+                "threshold": 5,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/effect/chorus_fruit"
+                }
+            },
+            {
+                "threshold": 6,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/effect/clock"
+                }
+            },
+            {
+                "threshold": 7,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/effect/crossbow"
+                }
+            },
+            {
+                "threshold": 8,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/effect/emerald"
+                }
+            },
+            {
+                "threshold": 9,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/effect/enchanted_book"
+                }
+            },
+            {
+                "threshold": 10,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/effect/fishing_rod"
+                }
+            },
+            {
+                "threshold": 11,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/effect/flint_and_steel"
+                }
+            },
+            {
+                "threshold": 12,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/effect/golden_apple"
+                }
+            },
+            {
+                "threshold": 13,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/effect/golden_axe"
+                }
+            },
+            {
+                "threshold": 14,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/effect/iron_sword"
+                }
+            },
+            {
+                "threshold": 15,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/effect/lava_bucket"
+                }
+            },
+            {
+                "threshold": 16,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/effect/lead"
+                }
+            },
+            {
+                "threshold": 17,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/effect/milk_bucket"
+                }
+            },
+            {
+                "threshold": 18,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/effect/netherite_chestplate"
+                }
+            },
+            {
+                "threshold": 19,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/effect/pink_potion"
+                }
+            },
+            {
+                "threshold": 20,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/effect/pink_splash_potion"
+                }
+            },
+            {
+                "threshold": 21,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/effect/shield"
+                }
+            },
+            {
+                "threshold": 22,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/effect/spyglass"
+                }
+            },
+            {
+                "threshold": 23,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/effect/tnt"
+                }
+            },
+            {
+                "threshold": 24,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/effect/totem_of_undying"
+                }
+            },
+            {
+                "threshold": 25,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/effect/water_bucket"
+                }
+            },
+            {
+                "threshold": 26,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/effect/wolf"
+                }
+            },
+            {
+                "threshold": 27,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/item/x1/cobblestone"
+                }
+            },
+            {
+                "threshold": 28,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/item/x1/diamond_sword"
+                }
+            },
+            {
+                "threshold": 29,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/item/x1/elytra"
+                }
+            },
+            {
+                "threshold": 30,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/item/x1/eye_of_ender"
+                }
+            },
+            {
+                "threshold": 31,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/item/x1/flowering_azalea_leaves"
+                }
+            },
+            {
+                "threshold": 32,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/item/x1/grass_block"
+                }
+            },
+            {
+                "threshold": 33,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/item/x1/oak_stairs"
+                }
+            },
+            {
+                "threshold": 34,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/item/x1/obsidian"
+                }
+            },
+            {
+                "threshold": 35,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/item/x1/piston"
+                }
+            },
+            {
+                "threshold": 36,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/item/x1/redstone"
+                }
+            },
+            {
+                "threshold": 37,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/item/x2/cobblestone"
+                }
+            },
+            {
+                "threshold": 38,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/item/x2/diamond_sword"
+                }
+            },
+            {
+                "threshold": 39,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/item/x2/elytra"
+                }
+            },
+            {
+                "threshold": 40,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/item/x2/eye_of_ender"
+                }
+            },
+            {
+                "threshold": 41,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/item/x2/flowering_azalea_leaves"
+                }
+            },
+            {
+                "threshold": 42,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/item/x2/grass_block"
+                }
+            },
+            {
+                "threshold": 43,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/item/x2/oak_stairs"
+                }
+            },
+            {
+                "threshold": 44,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/item/x2/obsidian"
+                }
+            },
+            {
+                "threshold": 45,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/item/x2/piston"
+                }
+            },
+            {
+                "threshold": 46,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/item/x2/redstone"
+                }
+            },
+            {
+                "threshold": 47,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/player/common/bdubs"
+                }
+            },
+            {
+                "threshold": 48,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/player/common/cubfan"
+                }
+            },
+            {
+                "threshold": 49,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/player/common/docm"
+                }
+            },
+            {
+                "threshold": 50,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/player/common/etho"
+                }
+            },
+            {
+                "threshold": 51,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/player/common/false"
+                }
+            },
+            {
+                "threshold": 52,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/player/common/gem"
+                }
+            },
+            {
+                "threshold": 53,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/player/common/grian"
+                }
+            },
+            {
+                "threshold": 54,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/player/common/hypno"
+                }
+            },
+            {
+                "threshold": 55,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/player/common/impulse"
+                }
+            },
+            {
+                "threshold": 56,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/player/common/iskall"
+                }
+            },
+            {
+                "threshold": 57,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/player/common/jevin"
+                }
+            },
+            {
+                "threshold": 58,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/player/common/joehills"
+                }
+            },
+            {
+                "threshold": 59,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/player/common/keralis"
+                }
+            },
+            {
+                "threshold": 60,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/player/common/mumbo"
+                }
+            },
+            {
+                "threshold": 61,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/player/common/pearl"
+                }
+            },
+            {
+                "threshold": 62,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/player/common/rendog"
+                }
+            },
+            {
+                "threshold": 63,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/player/common/scar"
+                }
+            },
+            {
+                "threshold": 64,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/player/common/stress"
+                }
+            },
+            {
+                "threshold": 65,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/player/common/tango"
+                }
+            },
+            {
+                "threshold": 66,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/player/common/tfc"
+                }
+            },
+            {
+                "threshold": 67,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/player/common/vintagebeef"
+                }
+            },
+            {
+                "threshold": 68,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/player/common/welsknight"
+                }
+            },
+            {
+                "threshold": 69,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/player/common/xbcrafted"
+                }
+            },
+            {
+                "threshold": 70,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/player/common/xisuma"
+                }
+            },
+            {
+                "threshold": 71,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/player/common/zedaph"
+                }
+            },
+            {
+                "threshold": 72,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/player/common/zombiecleo"
+                }
+            },
+            {
+                "threshold": 73,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/player/error/bdubs"
+                }
+            },
+            {
+                "threshold": 74,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/player/error/grian"
+                }
+            },
+            {
+                "threshold": 75,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/player/error/jevin"
+                }
+            },
+            {
+                "threshold": 76,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/player/error/pearl"
+                }
+            },
+            {
+                "threshold": 77,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/player/error/scar"
+                }
+            },
+            {
+                "threshold": 78,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/player/rare/bdubs"
+                }
+            },
+            {
+                "threshold": 79,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/player/rare/cubfan"
+                }
+            },
+            {
+                "threshold": 80,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/player/rare/docm"
+                }
+            },
+            {
+                "threshold": 81,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/player/rare/etho"
+                }
+            },
+            {
+                "threshold": 82,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/player/rare/false"
+                }
+            },
+            {
+                "threshold": 83,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/player/rare/gem"
+                }
+            },
+            {
+                "threshold": 84,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/player/rare/grian"
+                }
+            },
+            {
+                "threshold": 85,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/player/rare/hypno"
+                }
+            },
+            {
+                "threshold": 86,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/player/rare/impulse"
+                }
+            },
+            {
+                "threshold": 87,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/player/rare/iskall"
+                }
+            },
+            {
+                "threshold": 88,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/player/rare/jevin"
+                }
+            },
+            {
+                "threshold": 89,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/player/rare/joehills"
+                }
+            },
+            {
+                "threshold": 90,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/player/rare/keralis"
+                }
+            },
+            {
+                "threshold": 91,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/player/rare/mumbo"
+                }
+            },
+            {
+                "threshold": 92,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/player/rare/pearl"
+                }
+            },
+            {
+                "threshold": 93,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/player/rare/rendog"
+                }
+            },
+            {
+                "threshold": 94,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/player/rare/scar"
+                }
+            },
+            {
+                "threshold": 95,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/player/rare/stress"
+                }
+            },
+            {
+                "threshold": 96,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/player/rare/tango"
+                }
+            },
+            {
+                "threshold": 97,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/player/rare/tfc"
+                }
+            },
+            {
+                "threshold": 98,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/player/rare/vintagebeef"
+                }
+            },
+            {
+                "threshold": 99,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/player/rare/welsknight"
+                }
+            },
+            {
+                "threshold": 100,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/player/rare/xbcrafted"
+                }
+            },
+            {
+                "threshold": 101,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/player/rare/xisuma"
+                }
+            },
+            {
+                "threshold": 102,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/player/rare/zedaph"
+                }
+            },
+            {
+                "threshold": 103,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/player/rare/zombiecleo"
+                }
+            },
+            {
+                "threshold": 104,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/player/ultra_rare/bdubs"
+                }
+            },
+            {
+                "threshold": 105,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/player/ultra_rare/cubfan"
+                }
+            },
+            {
+                "threshold": 106,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/player/ultra_rare/docm"
+                }
+            },
+            {
+                "threshold": 107,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/player/ultra_rare/etho"
+                }
+            },
+            {
+                "threshold": 108,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/player/ultra_rare/false"
+                }
+            },
+            {
+                "threshold": 109,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/player/ultra_rare/gem"
+                }
+            },
+            {
+                "threshold": 110,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/player/ultra_rare/grian"
+                }
+            },
+            {
+                "threshold": 111,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/player/ultra_rare/hypno"
+                }
+            },
+            {
+                "threshold": 112,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/player/ultra_rare/impulse"
+                }
+            },
+            {
+                "threshold": 113,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/player/ultra_rare/iskall"
+                }
+            },
+            {
+                "threshold": 114,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/player/ultra_rare/jevin"
+                }
+            },
+            {
+                "threshold": 115,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/player/ultra_rare/joehills"
+                }
+            },
+            {
+                "threshold": 116,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/player/ultra_rare/keralis"
+                }
+            },
+            {
+                "threshold": 117,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/player/ultra_rare/mumbo"
+                }
+            },
+            {
+                "threshold": 118,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/player/ultra_rare/pearl"
+                }
+            },
+            {
+                "threshold": 119,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/player/ultra_rare/rendog"
+                }
+            },
+            {
+                "threshold": 120,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/player/ultra_rare/scar"
+                }
+            },
+            {
+                "threshold": 121,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/player/ultra_rare/stress"
+                }
+            },
+            {
+                "threshold": 122,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/player/ultra_rare/tango"
+                }
+            },
+            {
+                "threshold": 123,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/player/ultra_rare/tfc"
+                }
+            },
+            {
+                "threshold": 124,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/player/ultra_rare/vintagebeef"
+                }
+            },
+            {
+                "threshold": 125,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/player/ultra_rare/welsknight"
+                }
+            },
+            {
+                "threshold": 126,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/player/ultra_rare/xbcrafted"
+                }
+            },
+            {
+                "threshold": 127,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/player/ultra_rare/xisuma"
+                }
+            },
+            {
+                "threshold": 128,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/player/ultra_rare/zedaph"
+                }
+            },
+            {
+                "threshold": 129,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/player/ultra_rare/zombiecleo"
+                }
+            },
+            {
+                "threshold": 130,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/effect/composter"
+                }
+            },
+            {
+                "threshold": 131,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/effect/diamond_chestplate"
+                }
+            },
+            {
+                "threshold": 132,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/effect/diamond_sword"
+                }
+            },
+            {
+                "threshold": 133,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/effect/gold_chestplate"
+                }
+            },
+            {
+                "threshold": 134,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/effect/green_splash_potion"
+                }
+            },
+            {
+                "threshold": 135,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/effect/iron_chestplate"
+                }
+            },
+            {
+                "threshold": 136,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/effect/netherite_sword"
+                }
+            },
+            {
+                "threshold": 137,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/effect/tgc_card"
+                }
+            },
+            {
+                "threshold": 138,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/new_2/anvil"
+                }
+            },
+            {
+                "threshold": 139,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/new_2/armor_stand"
+                }
+            },
+            {
+                "threshold": 140,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/new_2/splash_slowness"
+                }
+            },
+            {
+                "threshold": 141,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/new_2/splash_weakness"
+                }
+            },
+            {
+                "threshold": 142,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/new_2/string"
+                }
+            },
+            {
+                "threshold": 143,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/new_2/trident"
+                }
+            },
+            {
+                "threshold": 144,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/new_2/turtle_shell"
+                }
+            },
+            {
+                "threshold": 145,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/health_cards/health_10"
+                }
+            },
+            {
+                "threshold": 146,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/health_cards/health_100"
+                }
+            },
+            {
+                "threshold": 147,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/health_cards/health_110"
+                }
+            },
+            {
+                "threshold": 148,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/health_cards/health_120"
+                }
+            },
+            {
+                "threshold": 149,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/health_cards/health_130"
+                }
+            },
+            {
+                "threshold": 150,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/health_cards/health_140"
+                }
+            },
+            {
+                "threshold": 151,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/health_cards/health_150"
+                }
+            },
+            {
+                "threshold": 152,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/health_cards/health_160"
+                }
+            },
+            {
+                "threshold": 153,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/health_cards/health_170"
+                }
+            },
+            {
+                "threshold": 154,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/health_cards/health_180"
+                }
+            },
+            {
+                "threshold": 155,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/health_cards/health_190"
+                }
+            },
+            {
+                "threshold": 156,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/health_cards/health_20"
+                }
+            },
+            {
+                "threshold": 157,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/health_cards/health_200"
+                }
+            },
+            {
+                "threshold": 158,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/health_cards/health_210"
+                }
+            },
+            {
+                "threshold": 159,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/health_cards/health_220"
+                }
+            },
+            {
+                "threshold": 160,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/health_cards/health_230"
+                }
+            },
+            {
+                "threshold": 161,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/health_cards/health_240"
+                }
+            },
+            {
+                "threshold": 162,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/health_cards/health_250"
+                }
+            },
+            {
+                "threshold": 163,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/health_cards/health_260"
+                }
+            },
+            {
+                "threshold": 164,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/health_cards/health_270"
+                }
+            },
+            {
+                "threshold": 165,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/health_cards/health_280"
+                }
+            },
+            {
+                "threshold": 166,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/health_cards/health_290"
+                }
+            },
+            {
+                "threshold": 167,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/health_cards/health_30"
+                }
+            },
+            {
+                "threshold": 168,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/health_cards/health_300"
+                }
+            },
+            {
+                "threshold": 169,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/health_cards/health_40"
+                }
+            },
+            {
+                "threshold": 170,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/health_cards/health_50"
+                }
+            },
+            {
+                "threshold": 171,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/health_cards/health_60"
+                }
+            },
+            {
+                "threshold": 172,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/health_cards/health_70"
+                }
+            },
+            {
+                "threshold": 173,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/health_cards/health_80"
+                }
+            },
+            {
+                "threshold": 174,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/health_cards/health_90"
+                }
+            },
+            {
+                "threshold": 175,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/alter_ego_hermit_cards/beetlejhost"
+                }
+            },
+            {
+                "threshold": 176,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/alter_ego_hermit_cards/convex_cub"
+                }
+            },
+            {
+                "threshold": 177,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/alter_ego_hermit_cards/evil_jevin"
+                }
+            },
+            {
+                "threshold": 178,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/alter_ego_hermit_cards/evil_x"
+                }
+            },
+            {
+                "threshold": 179,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/alter_ego_hermit_cards/helsknight"
+                }
+            },
+            {
+                "threshold": 180,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/alter_ego_hermit_cards/hotguy"
+                }
+            },
+            {
+                "threshold": 181,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/alter_ego_hermit_cards/human_cleo"
+                }
+            },
+            {
+                "threshold": 182,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/alter_ego_hermit_cards/potato_mumbo"
+                }
+            },
+            {
+                "threshold": 183,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/alter_ego_hermit_cards/poultry_man"
+                }
+            },
+            {
+                "threshold": 184,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/alter_ego_hermit_cards/renbob"
+                }
+            },
+            {
+                "threshold": 185,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/effects_new/bad_omen"
+                }
+            },
+            {
+                "threshold": 186,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/effects_new/chainmail_chestplate"
+                }
+            },
+            {
+                "threshold": 187,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/effects_new/command_block"
+                }
+            },
+            {
+                "threshold": 188,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/effects_new/ender_pearl"
+                }
+            },
+            {
+                "threshold": 189,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/effects_new/fire_charge"
+                }
+            },
+            {
+                "threshold": 190,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/effects_new/ladder"
+                }
+            },
+            {
+                "threshold": 191,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/effects_new/lightning_rod"
+                }
+            },
+            {
+                "threshold": 192,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/effects_new/piston"
+                }
+            },
+            {
+                "threshold": 193,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/effects_new/target_block"
+                }
+            },
+            {
+                "threshold": 194,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/missing_cards/egg"
+                }
+            },
+            {
+                "threshold": 195,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/missing_cards/goatfather"
+                }
+            },
+            {
+                "threshold": 196,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/map/missing_cards/llamadad"
+                }
+            }
+        ]
+    }
+}

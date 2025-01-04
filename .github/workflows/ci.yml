@@ -38,6 +38,7 @@ jobs:
           echo $SHA >> $GITHUB_STEP_SUMMARY
       - name: Semantic Release
         if: ${{ steps.get-next-version.outputs.new_release_published == 'true'  }}
+        id: release
         uses: cycjimmy/semantic-release-action@v4
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
@@ -47,3 +48,10 @@ jobs:
             @semantic-release/github 
             @semantic-release/changelog 
             semantic-release-export-data
+      - uses: wolfigster/rcon-action@v1.0.4
+        if: ${{ steps.get-next-version.outputs.new_release_published == 'true'  }}
+        with:
+          server: 'minecraft.meza.gg'
+          port: '25575'
+          password: ${{ secrets.RCON_PASSWORD }}
+          commands: '["pack set \"https://github.com/meza/MezacraftS3-resource-pack/releases/download/v${{ steps.get-next-version.outputs.new_release_version }}/MezacraftS3-${{ steps.get-next-version.outputs.new_release_version }}.zip\" push"]'

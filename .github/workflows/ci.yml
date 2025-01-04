@@ -48,7 +48,7 @@ jobs:
             @semantic-release/github 
             @semantic-release/changelog 
             semantic-release-export-data
-      - uses: wolfigster/rcon-action@v1.0.4
+      - uses: wolfigster/rcon-action@v1
         if: ${{ steps.get-next-version.outputs.new_release_published == 'true'  }}
         with:
           server: 'minecraft.meza.gg'

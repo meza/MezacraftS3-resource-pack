@@ -396,3 +396,5 @@ minecraft:item/netherite_sword,1,custom:item/x_sword
 minecraft:item/snowball,1,custom:item/tomato
 minecraft:item/suspicious_stew,1,custom:item/scarcookies3
 minecraft:item/totem_of_undying,1,custom:item/allay_of_undying
+minecraft:item/red_dye,1,custom:item/community/redamond
+minecraft:item/purple_dye,1,custom:item/community/frutchamond

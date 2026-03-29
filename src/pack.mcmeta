@@ -1,6 +1,8 @@
 {
     "pack": {
         "pack_format": 75,
-        "description": "Mezacraft S3 pack"
+        "description": "Mezacraft S3 pack",
+        "min_format": 75,
+        "max_format": 75
     }
 }

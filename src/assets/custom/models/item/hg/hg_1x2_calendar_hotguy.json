@@ -3,7 +3,7 @@
 	"texture_size": [400, 260],
 	"textures": {
 		"0": "custom:item/hg_textures/hg_painting_textures",
-		"particle": "custom:item//hg_textures/hg_painting_textures"
+		"particle": "custom:item/hg_textures/hg_painting_textures"
 	},
 	"elements": [
 		{

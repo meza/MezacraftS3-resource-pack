@@ -1,14 +1,9 @@
 {
 	"credit": "Made with Blockbench",
-	"parent": "custom:item/bingo_cards/bingocard",
 	"texture_size": [
 		32,
 		32
 	],
-	"textures": {
-		"2": "custom:item/bingo_cards/bingocard4",
-		"particle": "custom:item/bingo_cards/bingocard4"
-	},
 	"elements": [
 		{
 			"from": [

@@ -13,10 +13,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: "⬇️ Checkout"
-        uses: actions/checkout@v6
+        uses: actions/checkout@v6.0.2
       - name: Semantic Release
         id: get-next-version
-        uses: cycjimmy/semantic-release-action@v4
+        uses: cycjimmy/semantic-release-action@v4.2.2
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
         with:
@@ -39,7 +39,7 @@ jobs:
       - name: Semantic Release
         if: ${{ steps.get-next-version.outputs.new_release_published == 'true'  }}
         id: release
-        uses: cycjimmy/semantic-release-action@v4
+        uses: cycjimmy/semantic-release-action@v4.2.2
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
         with:

@@ -20,22 +20,7 @@
                     "type": "model",
                     "model": "custom:item/community/morgan_of_undying"
                 }
-            },
-            {
-                "threshold": 3,
-                "model": {
-                    "type": "model",
-                    "model": "custom:item/community/muluffel_of_undying"
-                }
-            },
-            {
-                "threshold": 4,
-                "model": {
-                    "type": "model",
-                    "model": "custom:item/community/bonsai_of_undying"
-                }
             }
-
         ]
     },
     "display": {

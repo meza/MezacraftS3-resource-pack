@@ -398,6 +398,6 @@ minecraft:item/suspicious_stew,1,custom:item/scarcookies3
 minecraft:item/totem_of_undying,1,custom:item/allay_of_undying
 ,2,custom:item/community/morgan_of_undying
 ,3,custom:item/community/muluffel_of_undying
-,4,custom:item/community/bonsai_of_undying
+,4,custom:item/community/muluffel_of_undying
 minecraft:item/red_dye,1,custom:item/community/redamond
 minecraft:item/purple_dye,1,custom:item/community/frutchamond

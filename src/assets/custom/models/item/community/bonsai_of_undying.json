@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "minecraft:item/community/bonsai_of_undying"
+    "layer0": "custom:item/community/bonsai_of_undying"
   }
 }

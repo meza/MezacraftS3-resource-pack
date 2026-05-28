@@ -13,6 +13,13 @@
                     "type": "model",
                     "model": "custom:item/allay_of_undying"
                 }
+            },
+            {
+                "threshold": 2,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/morgan_of_undying"
+                }
             }
         ]
     },

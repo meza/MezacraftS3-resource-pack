@@ -13,10 +13,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: "⬇️ Checkout"
-        uses: actions/checkout@v7.0.0
+        uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
       - name: Semantic Release
         id: get-next-version
-        uses: cycjimmy/semantic-release-action@v6.0.0
+        uses: cycjimmy/semantic-release-action@b12c8f6015dc215fe37bc154d4ad456dd3833c90 # v6.0.0
         env:
           GITHUB_TOKEN: ${{ github.token }}
         with:
@@ -39,7 +39,7 @@ jobs:
       - name: Semantic Release
         if: ${{ steps.get-next-version.outputs.new_release_published == 'true'  }}
         id: release
-        uses: cycjimmy/semantic-release-action@v6.0.0
+        uses: cycjimmy/semantic-release-action@b12c8f6015dc215fe37bc154d4ad456dd3833c90 # v6.0.0
         env:
           GITHUB_TOKEN: ${{ github.token }}
         with:
@@ -48,7 +48,7 @@ jobs:
             @semantic-release/github 
             @semantic-release/changelog 
             semantic-release-export-data
-      - uses: wolfigster/rcon-action@v1.0.2
+      - uses: wolfigster/rcon-action@db73f3f321ec75d5d165f2bdfa0ce08b1622d431 # v1.0.2
         if: ${{ steps.get-next-version.outputs.new_release_published == 'true'  }}
         with:
           server: 'minecraft.meza.gg'

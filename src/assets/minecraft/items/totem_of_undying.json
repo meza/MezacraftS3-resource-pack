@@ -34,22 +34,7 @@
                     "type": "model",
                     "model": "custom:item/community/bonsai_of_undying"
                 }
-            },
-            {
-                "threshold": 5,
-                "model": {
-                    "type": "model",
-                    "model": "custom:item/community/santamax_of_undying"
-                }
-            },
-            {
-                "threshold": 6,
-                "model": {
-                    "type": "model",
-                    "model": "custom:item/community/santagantic_of_undying"
-                }
             }
-
 
         ]
     },

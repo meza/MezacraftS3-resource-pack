@@ -10,22 +10,23 @@ permissions:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: meza-ubuntu-slim
     steps:
       - name: "⬇️ Checkout"
-        uses: actions/checkout@v6
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
       - name: Semantic Release
         id: get-next-version
-        uses: cycjimmy/semantic-release-action@v6.0.0
+        uses: cycjimmy/semantic-release-action@d9bf53a078bd2f86aaffaec796dbb3d28f1b6f34 # v8.1.3
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          GITHUB_TOKEN: ${{ github.token }}
         with:
+          semantic_version: 25.0.9
           dry_run: true
           extra_plugins: |
-            conventional-changelog-conventionalcommits 
-            @semantic-release/github 
-            @semantic-release/changelog 
-            semantic-release-export-data
+            conventional-changelog-conventionalcommits@9.3.1
+            @semantic-release/github@12.0.10
+            @semantic-release/changelog@6.0.3
+            semantic-release-export-data@1.2.0
 
       - name: "Package and Publish"
         if: ${{ steps.get-next-version.outputs.new_release_published == 'true'  }}
@@ -39,16 +40,17 @@ jobs:
       - name: Semantic Release
         if: ${{ steps.get-next-version.outputs.new_release_published == 'true'  }}
         id: release
-        uses: cycjimmy/semantic-release-action@v6.0.0
+        uses: cycjimmy/semantic-release-action@d9bf53a078bd2f86aaffaec796dbb3d28f1b6f34 # v8.1.3
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          GITHUB_TOKEN: ${{ github.token }}
         with:
+          semantic_version: 25.0.9
           extra_plugins: |
-            conventional-changelog-conventionalcommits 
-            @semantic-release/github 
-            @semantic-release/changelog 
-            semantic-release-export-data
-      - uses: wolfigster/rcon-action@v1.0.2
+            conventional-changelog-conventionalcommits@9.3.1
+            @semantic-release/github@12.0.10
+            @semantic-release/changelog@6.0.3
+            semantic-release-export-data@1.2.0
+      - uses: wolfigster/rcon-action@db73f3f321ec75d5d165f2bdfa0ce08b1622d431 # v1.0.2
         if: ${{ steps.get-next-version.outputs.new_release_published == 'true'  }}
         with:
           server: 'minecraft.meza.gg'

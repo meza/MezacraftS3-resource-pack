@@ -713,6 +713,13 @@
                     "type": "model",
                     "model": "custom:item/scarhat"
                 }
+            },
+            {
+                "threshold": 102,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/community/gurkistan_hardhat"
+                }
             }
         ]
     }
